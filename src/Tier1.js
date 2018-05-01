@@ -20,7 +20,7 @@ export default class Tier1 extends Component {
     return (
       <div onClick={() => {this.setState({color: "#000"})}} className="tier1" style={{backgroundColor: this.state.color, color: this.state.color}}>
         <Tier2 color={this.state.childColor} />
-        <Tier2 color={childColor} />
+        <Tier2 color={this.state.childColor} />
       </div>
     )
   }
